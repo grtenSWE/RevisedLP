@@ -32,11 +32,7 @@ This project includes a full two-phase simplex method, robust handling of infeas
 | `revisedsimplex.m` | Phase I & II solver using revised simplex |
 | `revisedfindenter.m` | Selects entering variable with Bland’s Rule |
 | `revisedfindleave.m` | Performs minimum-ratio test for leaving variable |
-| `bupdate.m` | Updates basis matrix and index vectors after pivot |
-| `simplex.m` | Original simplex method (1-phase) |
-| `findenter.m`, `findleave.m` | Helpers for the original simplex method |
-| `simplex_tests.m` | Test suite for original simplex solver |
-| `benchmark_simplex.m` | Script to benchmark naive vs optimized solvers |
+| `revisedbupdate.m` | Updates basis matrix and index vectors after pivot |
 
 ---
 
