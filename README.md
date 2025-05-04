@@ -2,7 +2,7 @@
 
 **RevisedLP** is a MATLAB implementation of the revised simplex algorithm for solving linear programming problems of the form:
 
-> minimize \( c^T x \) subject to \( Ax = b, \ x => 0 \)
+> minimize \( c^T x \) subject to \( Ax = b, x => 0 \)
 
 This project includes a full two-phase simplex method, robust handling of infeasible and unbounded problems, and Bland’s Rule to prevent cycling.
 
